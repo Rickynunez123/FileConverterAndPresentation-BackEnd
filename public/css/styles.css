@@ -1,0 +1,82 @@
+
+  .home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    
+  }
+  h1 {
+    
+      font-size: 40px;
+      margin-bottom: 32px;
+    }
+    .file-info {
+      margin-top: 32px;
+    }
+  .dropzone {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+    border: 2px dashed #419cb8;
+    background-color: #ffffff;
+    transition: 0.3s ease all;
+    
+  }
+  #dropzoneFileBtnSelect{
+    width: auto;
+    height: 20px;
+      padding: 8px 12px;
+      color: #fff;
+      background-color: #285e95;
+      transition: 0.3s ease all;
+      border: 2px  #419cb8;
+      display: block;
+      text-align: center;
+      cursor: pointer;
+    }
+    #dropzoneFileBtnUpload{
+      width: auto;
+      height: auto;
+        padding: 8px 12px;
+        color: #fff;
+        background-color: #285e95;
+        transition: 0.3s ease all;
+        border: 2px  #419cb8;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+    }
+
+    #dropzoneFileBtnSelect:hover{
+      background-color: #708ba7;
+    }
+
+    #dropzoneFileBtnUpload:hover{
+      background-color: #708ba7;
+    }
+    input {
+      display: none;
+    }
+
+  .active-dropzone {
+    color: #fff;
+    border-color: #fff;
+    background-color: #41b883;
+    
+  }
+  label {
+      background-color: #fff;
+      color: #41b883;
+    }
+  button{
+    background: transparent;
+    border: none !important;
+  }
